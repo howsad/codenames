@@ -1,0 +1,88 @@
+body {
+	background: antiquewhite;
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+  text-align: center;
+  font-weight: bolder;
+  font-kerning: none;
+}
+
+.game-field-row {
+  display: flex;
+}
+
+.card {
+  border: 3px solid #795548;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 18px 10px 10px 10px;
+  width: 10rem;
+	background: #ffffff;
+	box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  transition: all .17s ease;
+}
+
+.card-selected {
+	transform: scale(1.1);
+	box-shadow: 0 0 5px 5px rgba(255, 193, 7, 0.2);
+}
+
+.card-success {
+  background: #40ad40;
+}
+
+.word-card-footer {
+	margin-top: 5px;
+  height: 3rem;
+	display: flex;
+}
+
+.word-card-modifier {
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.word-card-modifier-fail-you {
+	background: yellow;
+}
+
+.word-card-modifier-fail-opponent {
+	background: orange;
+}
+
+.card-menu {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+	width: 8rem;
+  position: absolute;
+	z-index: 10;
+  background: aliceblue;
+}
+
+.card-menu-options {
+	margin-top: 15px;
+  display: flex;
+}
+
+.card-menu-option {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.card-menu-option-success {
+	background: green;
+}
+
+.card-menu-option-fail-you {
+	background: yellow;
+}
+
+.card-menu-option-fail-opponent {
+	background: orange;
+}
