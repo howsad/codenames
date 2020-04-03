@@ -32,6 +32,10 @@ body {
   background: #40ad40;
 }
 
+.card-killer {
+	background: black;
+}
+
 .word-card-footer {
 	margin-top: 5px;
   height: 3rem;
@@ -85,4 +89,14 @@ body {
 
 .card-menu-option-fail-opponent {
 	background: orange;
+}
+
+.game-map-row {
+	display: flex;
+}
+
+.game-map-cell {
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid black;
 }
